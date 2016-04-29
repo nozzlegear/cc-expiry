@@ -1,5 +1,5 @@
 var should = require("should");
-var expiry = require("../dist/expiry");
+var expiry = require("../dist/cc-expiry");
 
 describe("expiry", function ()
 {

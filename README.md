@@ -1,4 +1,4 @@
-# expiry
+# cc-expiry
 An NPM package for formatting credit card expiry dates in MM/YY or MM/YYYY formats.
 
 ## Usage
@@ -7,10 +7,10 @@ Import the lib:
 
 ```js
 //With ES6-style imports
-import {format} from "expiry";
+import {format} from "cc-expiry";
 
 // With node-style requires:
-var format = require("expiry").format;
+var format = require("cc-expiry").format;
 ```
 
 ### format(expiry: string, customSeparator?: string, fourDigitYear?: boolean)
