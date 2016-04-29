@@ -13,7 +13,7 @@ import {format} from "cc-expiry";
 var format = require("cc-expiry").format;
 ```
 
-### format(expiry: string, customSeparator?: string, fourDigitYear?: boolean)
+#### format(expiry: string, customSeparator?: string, fourDigitYear?: boolean)
 
 ```js
 console.log(format("12 / 3456")); // '12 / 34'
