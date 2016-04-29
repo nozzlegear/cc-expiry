@@ -4,7 +4,7 @@
  * @param separator A string that should separate the months and years in result. Default: " / ".
  * @param yearLength Optional, the length to allow for year digits. Can be 2 or 4.
  */
-export function format(expiry: string, separator: string = " / ", fourDigitYear: boolean)
+export function format(expiry: string, separator: string = " / ", fourDigitYear: boolean = false)
 {
     //Separator must be a string
     if (typeof separator !== "string")

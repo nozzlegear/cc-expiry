@@ -7,6 +7,7 @@
  */
 function format(expiry, separator, fourDigitYear) {
     if (separator === void 0) { separator = " / "; }
+    if (fourDigitYear === void 0) { fourDigitYear = false; }
     //Separator must be a string
     if (typeof separator !== "string") {
         console.warn("Invalid separator value of " + separator + " passed to expiry.format function. Separator must be a string. Defaulting to \" / \".");
