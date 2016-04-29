@@ -1,0 +1,6 @@
+{
+  "name": "expiry",
+  "main": "expiry.d.ts",
+  "author": "Joshua Harms <joshua@nozzlegear.com>",
+  "description": "An NPM package for formatting credit card expiry dates in MM/YY or MM/YYYY formats."
+}
