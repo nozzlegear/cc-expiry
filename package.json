@@ -4,7 +4,7 @@
   "description": "An NPM package for formatting credit card expiry dates in MM/YY or MM/YYYY formats.",
   "main": "dist/expiry.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tsc -p . & mocha tests/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,9 +20,12 @@
     "url": "https://github.com/nozzlegear/expiry/issues"
   },
   "homepage": "https://github.com/nozzlegear/expiry#readme",
-  "typescript":{
-    "definitions":[
+  "typescript": {
+    "definitions": [
       "expiry.d.ts"
     ]
+  },
+  "devDependencies": {
+    "should": "^8.3.1"
   }
 }
