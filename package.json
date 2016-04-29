@@ -1,5 +1,5 @@
 {
-  "name": "expiry",
+  "name": "cc-expiry",
   "version": "1.0.0",
   "description": "An NPM package for formatting credit card expiry dates in MM/YY or MM/YYYY formats.",
   "main": "dist/cc-expiry.js",
