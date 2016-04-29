@@ -13,7 +13,7 @@ import {format} from "expiry";
 var format = require("expiry").format;
 ```
 
-### format(expiry: string, customSeparator?: string, fourDigitYear?: boolean)
+#### format(expiry: string, customSeparator?: string, fourDigitYear?: boolean)
 
 ```js
 console.log(format("12 / 3456")); // '12 / 34'
