@@ -8,6 +8,6 @@
         "declaration": true
     },
     "files": [
-        "expiry.ts"
+        "cc-expiry.ts"
     ]
 }

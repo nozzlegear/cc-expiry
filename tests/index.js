@@ -1,7 +1,7 @@
 var should = require("should");
 var expiry = require("../dist/cc-expiry");
 
-describe("expiry", function ()
+describe("cc-expiry", function ()
 {
     describe(".format() with default options", function ()
     {
